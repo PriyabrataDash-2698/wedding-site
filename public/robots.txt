@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://priyabrata-swarnaprabha-wedding.vercel.app/sitemap.xml
