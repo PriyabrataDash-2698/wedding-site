@@ -1,6 +1,7 @@
 :root{--bg:#FBEFEA;--surface:#fff;--ink:#1F2F2E;--muted:#5d6e6c;--gold:#B9731A;--line:rgba(31,47,46,.16);color-scheme:light;
---serif:'Cormorant Garamond','Noto Serif Devanagari','Noto Serif Kannada',Georgia,serif;
---sans:'Hanken Grotesk','Noto Sans Devanagari','Noto Sans Kannada',system-ui,sans-serif}
+--serif:'Cormorant Garamond','Noto Serif Devanagari','Noto Serif Kannada','Noto Sans Oriya',Georgia,serif;
+--sans:'Hanken Grotesk','Noto Sans Devanagari','Noto Sans Kannada','Noto Sans Oriya',system-ui,sans-serif;
+}
 @media (prefers-color-scheme:dark){:root{--bg:#0E2A2B;--surface:#143738;--ink:#FDF1E3;--muted:#a9bfbb;--gold:#F2A93B;--line:rgba(253,241,227,.2);color-scheme:dark}}
 html{scroll-behavior:smooth}
 *{box-sizing:border-box}

@@ -26,10 +26,10 @@ const UI = {
     locale: "hi-IN",
   },
   kn: {
-    tagline: "ଆମେ ବିବାହ କରୁଛୁ। ଆମ ସହ ମିଶି ଏହି ଉତ୍ସବ ପାଳନ କରନ୍ତୁ।",
-    days: "ଦିନ", hours: "ଘଣ୍ଟା", minutes: "ମିନିଟ୍", seconds: "ସେକେଣ୍ଡ",
-    whereTitle: "ସ୍ଥାନ", whereLead: "ଆପଣଙ୍କ ଫୋନରେ ଦିଗ ନିର୍ଦ୍ଦେଶନା ଖୋଲିବା ପାଇଁ ପ୍ରତ୍ୟେକ ଇଭେଣ୍ଟରେ ଥିବା କୋଡ୍‌କୁ ସ୍କାନ୍ କରନ୍ତୁ।",
-    scanHint: "ଦିଗ ଜାଣିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ କ୍ୟାମେରା ସାହାଯ୍ୟରେ ସ୍କାନ୍ କରନ୍ତୁ।", openMaps: "ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ",
+    tagline: "ನಾವು ಮದುವೆಯಾಗುತ್ತಿದ್ದೇವೆ. ನಮ್ಮ ಸಂತೋಷದಲ್ಲಿ ಭಾಗವಹಿಸಿ.",
+    days: "ದಿನ", hours: "ಗಂಟೆ", minutes: "ನಿಮಿಷ", seconds: "ಸೆಕೆಂಡ್",
+    whereTitle: "ನಮ್ಮನ್ನು ಎಲ್ಲಿ ಭೇಟಿಯಾಗಬೇಕು", whereLead: "ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಮಾರ್ಗ ತೆರೆಯಲು ಪ್ರತಿ ಕಾರ್ಯಕ್ರಮದ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.",
+    scanHint: "ಮಾರ್ಗಕ್ಕಾಗಿ ಫೋನ್ ಕ್ಯಾಮೆರಾದಿಂದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.", openMaps: "ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ",
     scheduleTitle: "ದಿನದ ಕಾರ್ಯಕ್ರಮ", scheduleLead: "ಏನು, ಯಾವಾಗ.",
     addCal: "ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಸೇರಿಸಿ", google: "ಗೂಗಲ್ ಕ್ಯಾಲೆಂಡರ್", ics: "Apple / Outlook (.ics)",
     momentsTitle: "ನಮ್ಮ ಕ್ಷಣಗಳು", momentsLead: "ಕೆಲವು ನೆನಪುಗಳನ್ನು ನೋಡಿ. ದೊಡ್ಡದಾಗಿ ನೋಡಲು ಫೋಟೋ ಮೇಲೆ ಟ್ಯಾಪ್ ಮಾಡಿ.",
@@ -37,9 +37,21 @@ const UI = {
     musicOn: "ಸಂಗೀತ ಪ್ರಾರಂಭಿಸಿ", musicOff: "ಸಂಗೀತ ನಿಲ್ಲಿಸಿ", withLove: "ಪ್ರೀತಿಯಿಂದ", and: "ಮತ್ತು ಕುಟುಂಬದವರು",
     locale: "kn-IN",
   },
+  or: {
+    tagline: "ଆମେ ବିବାହ କରିବାକୁ ଯାଉଛୁ। ଏହି ଖୁସିର ମୁହୂର୍ତ୍ତରେ ଆମ ସହ ସାମିଲ ହୁଅନ୍ତୁ।",
+    days: "ଦିନ", hours: "ଘଣ୍ଟା", minutes: "ମିନିଟ୍", seconds: "ସେକେଣ୍ଡ",
+    whereTitle: "ଆମକୁ କେଉଁଠି ପାଇବେ", whereLead: "ଆପଣଙ୍କ ଫୋନ୍‌ରେ ଦିଗ ଜାଣିବା ପାଇଁ ପ୍ରତ୍ୟେକ କାର୍ଯ୍ୟକ୍ରମର କୋଡ୍ ସ୍କାନ୍ କରନ୍ତୁ।",
+    scanHint: "ଦିଗ ଜାଣିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ୍ କ୍ୟାମେରା ସାହାଯ୍ୟରେ ସ୍କାନ୍ କରନ୍ତୁ।", openMaps: "ମ୍ୟାପ୍‌ରେ ଖୋଲନ୍ତୁ",
+    scheduleTitle: "ବିବାହ ଦିନର କାର୍ଯ୍ୟକ୍ରମ", scheduleLead: "କେତେବେଳେ କ’ଣ ହେବ, ତାହାର ବିବରଣୀ।",
+    addCal: "କ୍ୟାଲେଣ୍ଡରରେ ଯୋଡ଼ନ୍ତୁ", google: "ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡର", ics: "ଆପଲ୍ / ଆଉଟଲୁକ୍ (.ics)",
+    momentsTitle: "ଆମର କିଛି ସ୍ମରଣୀୟ ମୁହୂର୍ତ୍ତ", momentsLead: "ଆମର କିଛି ପ୍ରିୟ ସ୍ମୃତି ଦେଖିବା ପାଇଁ ସ୍ୱାଇପ୍ କରନ୍ତୁ। ଫଟୋକୁ ବଡ଼ କରି ଦେଖିବା ପାଇଁ ଟ୍ୟାପ୍ କରନ୍ତୁ।",
+    openPhoto: "ଫଟୋ ଖୋଲନ୍ତୁ", closePhoto: "ଫଟୋ ବନ୍ଦ କରନ୍ତୁ",
+    musicOn: "ସଙ୍ଗୀତ ଚଲାନ୍ତୁ", musicOff: "ସଙ୍ଗୀତ ବନ୍ଦ କରନ୍ତୁ", withLove: "ସ୍ନେହ ସହକାରେ", and: "ଏବଂ ପରିବାରବର୍ଗ",
+    locale: "or-IN",
+  },
 };
 
-export const LANGS = [["en", "EN"], ["hi", "हिं"], ["kn", "ಕನ್"]];
+export const LANGS = [["en", "EN"], ["hi", "हिं"], ["kn", "ಕನ್"],["or","ଓ"]];
 const Ctx = createContext(null);
 
 export function LangProvider({ children }) {
@@ -51,7 +63,7 @@ export function LangProvider({ children }) {
     try { localStorage.setItem("lang", lang); } catch {}
   }, [lang]);
   const t = (k) => UI[lang][k];
-  const tr = (obj) => obj[lang] ?? obj.en; // pick a translated field from config
+  const tr = (obj) => obj?.[lang] ?? obj?.en ?? "";// pick a translated field from config
   return <Ctx.Provider value={{ lang, setLang, t, tr }}>{children}</Ctx.Provider>;
 }
 export const useLang = () => useContext(Ctx);
