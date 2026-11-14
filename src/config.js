@@ -41,6 +41,6 @@ export const CONFIG = {
     { src:"photos/prpsl.jpeg" , cap: { en: "The proposal", hi: "प्रेम निवेदन", kn: "ಪ್ರೇಮ ನಿವೇದನೆ", or: "ପ୍ରେମ ନିବେଦନ" }, c: ["#0E2A2B", "#2f7f78"] },
     { src:"photos/prmsrslvd.jpeg" , cap: { en: "In JS we call:- A Promise Resolved", hi: "JS में हम कहते हैं:- एक वादा पूरा हुआ", kn: "JS ನಲ್ಲಿ ನಾವು ಹೇಳುತ್ತೇವೆ:- ಒಂದು ಭರವಸೆ ಈಡೇರಿದೆ", or: "JS ରେ ଆମେ କହୁ:- ଏକ ପ୍ରତିଶ୍ରୁତି ପୂରଣ ହେଲା" }, c: ["#F2A93B", "#e56b4a"] },
     { src:"photos/ngmnt.jpeg" , cap: { en: "Engagement", hi: "सगाई", kn: "ನಿಶ್ಚಿತಾರ್ಥ", or: "ନିର୍ବନ୍ଧ" }, c: ["#2f7f78", "#8bbf7a"] },
-    { src:"photos/tgthr.jpeg" , cap: { en: "Together", hi: "साथ-साथ", kn: "ಒಟ್ಟಿಗೆ", or: "ଏକାଠି" }, c: ["#7a3b5a", "#E8A598"] },
+    { src:"photos/tgthr.jpeg" , cap: { en: "Celebrating 10 years of Love", hi: "दस सालों का सफर, मोहब्बत की एक अनमोल कहानी।", kn: "ಹತ್ತು ವರ್ಷಗಳ ಪ್ರೀತಿ, ಎಂದೆಂದಿಗೂ ಮಾಸದ ನೆನಪುಗಳು.", or: "ଭଲପାଇବାର ଦଶଟି ସୁନ୍ଦର ବର୍ଷ" }, c: ["#7a3b5a", "#E8A598"] },
   ],
 };
