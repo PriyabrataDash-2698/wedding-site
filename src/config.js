@@ -7,7 +7,7 @@ export const CONFIG = {
   events: [
     {
       id: "baraat",
-      start: "2026-12-11T16:30:00+05:30",
+      start: "2026-12-11T15:30:00+05:30",
       hours: 2,
       mapQuery: "Sai Lotus Kalyan Mandap nimapada", // used for the QR code and Maps link
       name: { en: "Baraat", hi: "बारात", kn: "ಬರಾತ್",or: "ବରଯାତ୍ରୀ" },
@@ -16,7 +16,7 @@ export const CONFIG = {
     },
     {
       id: "reception",
-      start: "2026-12-13T20:00:00+05:30",
+      start: "2026-12-13T19:30:00+05:30",
       hours: 3,
       mapQuery: "20.0229459, 86.1836021",
       name: { en: "Reception", hi: "रिसेप्शन", kn: "ಆರತಕ್ಷತೆ" , or: "ରିସେପ୍ସନ୍" },
@@ -28,11 +28,11 @@ export const CONFIG = {
   // Day schedule (timeline). Times are shown in India time.
   schedule: [
     {
-      at: "2026-12-11T09:30:00+01:30", title: {en: "Baraat leaves from home",hi: "बारात घर से रवाना",kn: "ಬರಾತ್ ಮನೆಯಿಂದ ಹೊರಡುತ್ತದೆ",or: "ବରଯାତ୍ରୀ ଘରୁ ବାହାରିବେ"}
+      at: "2026-12-11T12:30:00+05:30", title: {en: "Baraat leaves from home",hi: "बारात घर से रवाना",kn: "ಬರಾತ್ ಮನೆಯಿಂದ ಹೊರಡುತ್ತದೆ",or: "ବରଯାତ୍ରୀ ଘରୁ ବାହାରିବେ"}
     },
-    { at: "2026-12-11T18:00:00+05:30", title: { en: "Milni and Jaimala", hi: "मिलनी और जयमाला", kn: "ಮಿಲನಿ ಮತ್ತು ಜಯಮಾಲಾ" ,or:"ମିଳନୀ ଓ ଜୟମାଳା"} },
-    { at: "2026-12-13T20:00:00+06:30", title: { en: "Reception begins", hi: "रिसेप्शन शुरू", kn: "ಆರತಕ್ಷತೆ ಆರಂಭ" , or: "ରିସେପ୍ସନ୍ ଆରମ୍ଭ ହେବ |"} },
-    { at: "2026-12-13T21:00:00+07:30", title: { en: "Dinner", hi: "भोजन", kn: "ಭೋಜನ" ,or: "ରାତ୍ରିଭୋଜନ" } },
+    { at: "2026-12-11T17:30:00+05:30", title: { en: "Milni and Jaimala", hi: "मिलनी और जयमाला", kn: "ಮಿಲನಿ ಮತ್ತು ಜಯಮಾಲಾ" ,or:"ମିଳନୀ ଓ ଜୟମାଳା"} },
+    { at: "2026-12-13T19:00:00+05:30", title: { en: "Reception begins", hi: "रिसेप्शन शुरू", kn: "ಆರತಕ್ಷತೆ ಆರಂಭ" , or: "ରିସେପ୍ସନ୍ ଆରମ୍ଭ ହେବ |"} },
+    { at: "2026-12-13T19:30:00+05:30", title: { en: "Dinner", hi: "भोजन", kn: "ಭೋಜನ" ,or: "ରାତ୍ରିଭୋଜନ" } },
   ],
 
   // Put image files in /public/photos and set src: "photos/1.jpg". Without src, a colour tile is shown.
