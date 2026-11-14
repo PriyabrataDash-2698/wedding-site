@@ -20,7 +20,7 @@ export const CONFIG = {
       hours: 3,
       mapQuery: "20.0229459, 86.1836021",
       name: { en: "Reception", hi: "रिसेप्शन", kn: "ಆರತಕ್ಷತೆ" , or: "ରିସେପ୍ସନ୍" },
-      place: { en: "Raghunath Bhawan,Patisahi,Kakatpur,puri", hi: "रघुनाथ भवन, पतिशाही, काकटपुर, पुरी", kn:"ರಘುನಾಥ ಭವನ, ಪತಿಸಾಹಿ, ಕಾಕತ್‌ಪುರ, ಪುರಿ" ,or: "ରଘୁନାଥ ଭବନ, ପଟିସାହି, କାକଟପୁର, ପୁରୀ |" },
+      place: { en: "Raghunath Bhawan,Patisahi,Kakatpur,puri", hi: "रघुनाथ भवन, पतिशाही, काकटपुर, पुरी", kn:"ರಘುನಾಥ ಭವನ, ಪತಿಸಾಹಿ, ಕಾಕತ್‌ಪುರ, ಪುರಿ" ,or: "ରଘୁନାଥ ଭବନ, ପତିସାହି, କାକଟପୁର, ପୁରୀ |" },
       note: { en: "Dinner and music follow the blessings.", hi: "आशीर्वाद के बाद भोजन और संगीत होगा।", kn: "ಆಶೀರ್ವಾದದ ನಂತರ ಭೋಜನ ಮತ್ತು ಸಂಗೀತ." , or: "ଆଶୀର୍ବାଦ ପରେ ରାତ୍ରିଭୋଜନ ଓ ସଙ୍ଗୀତର ଆୟୋଜନ ରହିଛି।" },
     },
   ],
