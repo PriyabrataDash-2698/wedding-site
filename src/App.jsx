@@ -17,7 +17,7 @@ export default function App() {
         <Hero />
         <Events />
         <Timeline />
-        <Gallery />
+        {/* <Gallery /> */}
         <Footer />
       </main>
     </>
