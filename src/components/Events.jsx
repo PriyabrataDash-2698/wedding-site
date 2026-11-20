@@ -4,7 +4,7 @@ import { mapsUrl } from "../utils.js";
 import Reveal from "./Reveal.jsx";
 import QRCode from "./QRCode.jsx";
 import CalendarButton from "./CalendarButton.jsx";
-
+import ScrollDown from "./ScrollDown.jsx";
 function EventCard({ ev }) {
   const { t, tr } = useLang();
   const url = mapsUrl(ev.mapQuery);
@@ -35,6 +35,7 @@ export default function Events() {
       <h2>{t("whereTitle")}</h2>
       <p className="lead">{t("whereLead")}</p>
       <div className="events">{CONFIG.events.map((ev) => <EventCard ev={ev} key={ev.id} />)}</div>
+      <ScrollDown to="footer" />
     </section>
   );
 }

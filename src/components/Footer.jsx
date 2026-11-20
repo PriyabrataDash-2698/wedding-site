@@ -6,7 +6,7 @@ export default function Footer() {
   const { t, lang } = useLang();
   const [g, b] = CONFIG.names[lang];
   return (
-    <footer>
+    <footer id="footer">
       <Reveal><h2>{t("withLove")}</h2><p>{g} & {b} {t("and")}</p></Reveal>
     </footer>
   );

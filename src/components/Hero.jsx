@@ -1,7 +1,7 @@
 import { CONFIG } from "../config.js";
 import { useLang } from "../i18n.jsx";
 import Countdown from "./Countdown.jsx";
-
+import ScrollDown from "./ScrollDown.jsx";
 // Split by grapheme so Hindi and Kannada letters with matras stay intact.
 const split = (text, lang) =>
   Array.from(new Intl.Segmenter(lang, { granularity: "grapheme" }).segment(text), (s) => s.segment);
@@ -18,7 +18,9 @@ export default function Hero() {
   const [groom, bride] = CONFIG.names[lang];
   const date = new Date(CONFIG.date).toLocaleDateString(t("locale"), { day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Kolkata" });
   return (
+    
     <header className="hero">
+      <ScrollDown to="venues" className="in-hero" />
       <div className="ring a" /><div className="ring b" />
       <div style={{ position: "relative" }}>
         <h1 key={lang}>

@@ -11,6 +11,7 @@ const UI = {
     momentsTitle: "Our moments", momentsLead: "Swipe through a few favourite memories. Tap a photo to see it larger.",
     openPhoto: "Open photo", closePhoto: "Close photo",
     musicOn: "Play music", musicOff: "Pause music", withLove: "With love", and: "and families",
+    scrollTop: "Back to top",
     locale: "en-IN",
   },
   hi: {
@@ -23,6 +24,7 @@ const UI = {
     momentsTitle: "हमारे पल", momentsLead: "कुछ पसंदीदा यादें देखें। बड़ा देखने के लिए फ़ोटो पर टैप करें।",
     openPhoto: "फ़ोटो खोलें", closePhoto: "फ़ोटो बंद करें",
     musicOn: "संगीत चलाएँ", musicOff: "संगीत रोकें", withLove: "स्नेह सहित", and: "एवं परिवारजन",
+    scrollTop: "ऊपर जाएँ" ,
     locale: "hi-IN",
   },
   kn: {
@@ -35,6 +37,7 @@ const UI = {
     momentsTitle: "ನಮ್ಮ ಕ್ಷಣಗಳು", momentsLead: "ಕೆಲವು ನೆನಪುಗಳನ್ನು ನೋಡಿ. ದೊಡ್ಡದಾಗಿ ನೋಡಲು ಫೋಟೋ ಮೇಲೆ ಟ್ಯಾಪ್ ಮಾಡಿ.",
     openPhoto: "ಫೋಟೋ ತೆರೆಯಿರಿ", closePhoto: "ಫೋಟೋ ಮುಚ್ಚಿ",
     musicOn: "ಸಂಗೀತ ಪ್ರಾರಂಭಿಸಿ", musicOff: "ಸಂಗೀತ ನಿಲ್ಲಿಸಿ", withLove: "ಪ್ರೀತಿಯಿಂದ", and: "ಮತ್ತು ಕುಟುಂಬದವರು",
+    scrollTop: "ಮೇಲೆ ಹೋಗಿ" ,
     locale: "kn-IN",
   },
   or: {
@@ -47,6 +50,7 @@ const UI = {
     momentsTitle: "ଆମର କିଛି ସ୍ମରଣୀୟ ମୁହୂର୍ତ୍ତ", momentsLead: "ଆମର କିଛି ପ୍ରିୟ ସ୍ମୃତି ଦେଖିବା ପାଇଁ ସ୍ୱାଇପ୍ କରନ୍ତୁ। ଫଟୋକୁ ବଡ଼ କରି ଦେଖିବା ପାଇଁ ଟ୍ୟାପ୍ କରନ୍ତୁ।",
     openPhoto: "ଫଟୋ ଖୋଲନ୍ତୁ", closePhoto: "ଫଟୋ ବନ୍ଦ କରନ୍ତୁ",
     musicOn: "ସଙ୍ଗୀତ ଚଲାନ୍ତୁ", musicOff: "ସଙ୍ଗୀତ ବନ୍ଦ କରନ୍ତୁ", withLove: "ସ୍ନେହ ସହକାରେ", and: "ଏବଂ ପରିବାରବର୍ଗ",
+    scrollTop: "ଉପରକୁ ଯାଆନ୍ତୁ",
     locale: "or-IN",
   },
 };

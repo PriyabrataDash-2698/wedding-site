@@ -1,7 +1,7 @@
 import { CONFIG } from "../config.js";
 import { useLang } from "../i18n.jsx";
 import Reveal from "./Reveal.jsx";
-
+import ScrollDown from "./ScrollDown.jsx";
 export default function Timeline() {
   const { t, tr } = useLang();
   return (
